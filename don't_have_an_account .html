@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal - Sign Up</title>
+</head>
+ <body>
+
+
+  <center><h1>Welcome To Student Portal</h1></center>
+  <hr>
+
+  <h2>Don't have an account?</h2>
+  <hr>
+
+  <center><p><a href="homepage.html">🔙 Back to Home Page</a></p></center>
+  <hr><br>
+
+  <!-- Center box with table and fieldset -->
+  <table height="100%" width="100%">
+    <tr>
+      <td align="center" valign="middle">
+        <fieldset style="width:300px; padding:20px;">
+          <legend><h2>Sign in</h2></legend>
+
+          <form action="home.html"> <!-- Form opens here -->
+
+            <label>Full Name:<br>
+              <input type="text" name="fullname" required>
+            </label><br><br>
+
+            <label>Last Name:<br>
+              <input type="text" name="lastname" required>
+            </label><br><br>
+
+            <label>Email:<br>
+              <input type="email" name="email" required>
+            </label><br><br>
+
+            Gender:<br>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label><br><br>
+
+             <center> <button onclick="document.location = 'index.html'">Login</button>
+        </center>
+          </form> <!-- Form ends here -->
+        </fieldset>
+      </td>
+    </tr>
+  </table>
+  
+  <footer style="position: fixed; bottom: 0; width: 100%; text-align: center; background: #f0f0f0;">
+  © 2025 Student Portal
+</footer>
+
+</body>
+</html>
